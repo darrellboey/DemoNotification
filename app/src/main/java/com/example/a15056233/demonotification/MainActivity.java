@@ -54,8 +54,7 @@ public class MainActivity extends AppCompatActivity {
                         getSystemService(NOTIFICATION_SERVICE);
 
 
-                // A good to have id, in case you want to cancel it
-                // programmatically later on
+                // A good to have id, in case you want to cancel it, programmatically later on
                 notificationManager.notify(notificationID, n);
                 finish();
             }
