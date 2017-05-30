@@ -92,10 +92,6 @@ public class MainActivity extends AppCompatActivity {
                 NotificationManager notificationManager = (NotificationManager)
                         getSystemService(NOTIFICATION_SERVICE);
 
-                // This replaces the existing notification with the same ID
-                notificationManager.notify(notificationID, n);
-                finish();
-            }
         });
 
     }
